@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Navigation</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to CampusBuddy</h1>
+        <p>Your guide to navigating KIET Group of Instituitions with ease.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#map">Campus Map</a></li>
+            <li><a href="#locations">Important Locations</a></li>
+            <li><a href="#contact">Contact Information</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="map">
+            <h2>Campus Map</h2>
+            <p>Find your way around with this interactive map.</p>
+            <img src="campus-map.jpg" style="width:100%; max-width:600px;">
+        </section>
+
+        <section id="locations">
+            <h2>Important Locations</h2>
+            <ul>
+                <li><strong>Library:</strong> Building B, Second Floor</li>
+                <li><strong>Student Center:</strong> Building D, Main Hall</li>
+                <li><strong>Gym:</strong> Building E, Ground Floor</li>
+                <li><strong>Dining Hall:</strong> Building A, First Floor</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>If you have questions, feel free to reach out:</p>
+            <ul>
+                <li>Email: info@kiet.edu</li>
+                <li>Phone: (123) 456-7890</li>
+                <li>Office Hours: 8:00 AM - 5:00 PM, Monday - Friday</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 KIET Group Of Instituitions. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Camera Button -->
+    <button id="camera-button" title="Open Camera">&#128247;</button>
+
+    <!-- Camera Modal -->
+    <div id="camera-modal">
+        <video id="camera-stream" autoplay></video>
+        <button id="close-camera">Close</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
