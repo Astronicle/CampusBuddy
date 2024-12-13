@@ -126,3 +126,42 @@ footer {
 #camera-modal button:hover {
     background-color: #003060;
 }
+
+#locations {
+    text-align: center;
+}
+
+.location-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.location-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.location-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.location-card p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+}
+
+.imagesOfLocations {
+    height: 100px;
+    width: 100px;
+}
